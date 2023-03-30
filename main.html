@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <meta name="description" content="Название сайта">
+    <meta name="author" content="Media Line">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content=""><!-- ICO-->
+    <link rel="shortcut icon" type="image/png" href="./img/favicon/Atom100x100.png">
+    <link rel="apple-touch-icon" href="./img/favicon/Atom57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/Atom72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/Atom114x114.png">
+    <link rel="stylesheet" type="text/css" href="./css/critical.css">
+    <link rel="stylesheet" type="text/css" href="./libs/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/mp.css"><!--MAIN-CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  </head>
+  <body>
+    <main>
+      <section class="catalog">
+        <div class="container">
+          <h1 class="catalog-title"> Каталог товаров</h1>
+          <ul class="catalog-block">
+            <li><a href="#">
+                <div class="block-container">
+                  <div class="imag-container"><img src="img/catalog/Interiors.png"></div>
+                </div>
+                <h2 class="block-title">Межкомнатные двери</h2></a></li>
+            <li><a href="#">
+                <div class="block-container">
+                  <div class="imag-container"><img src="img/catalog/entrances.png"></div>
+                </div>
+                <h2 class="block-title">Входные двери</h2></a></li>
+            <li><a href="#">
+                <div class="block-container">
+                  <div class="imag-container"><img src="img/catalog/decor.png"></div>
+                </div>
+                <h2 class="block-title">Декор</h2></a></li>
+            <li><a href="#">
+                <div class="block-container">
+                  <div class="imag-container"><img src="img/catalog/floor.png"></div>
+                </div>
+                <h2 class="block-title">Напольные покрытия</h2></a></li>
+            <li><a href="#">
+                <div class="block-container">
+                  <div class="imag-container"><img src="img/catalog/special.png"></div>
+                </div>
+                <h2 class="block-title">Специальные двери</h2></a></li>
+            <li><a href="#">
+                <div class="block-container">
+                  <div class="imag-container"><img src="img/catalog/fittings.png"></div>
+                </div>
+                <h2 class="block-title">Фурнитура</h2></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="interiors">
+        <div class="container">
+          <div class="interiors-wrap">
+            <div class="interiors-blocks">
+              <div class="interiors-header">
+                <h2>Межкомнатные двери</h2><a class="button" href="#">Показать все</a>
+              </div>
+              <div class="interiors-collections">
+                <h3>Наши коллекции</h3>
+                <div class="collections-block">
+                  <div class="item-wrap"><a href="./#">Скрытые</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Скрытые</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Скрытые</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                  <div class="item-wrap"><a href="./#">Для ванной и туалета</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="interiors-imag"><img src="img/interiors/interiors.png"></div>
+          </div>
+        </div>
+      </section>
+      <!-- --->
+      <!--     const choice = [-->
+      <!--         {-->
+      <!--             data: "tab-1",-->
+      <!--             tab: "#tab-1",-->
+      <!--             img: "img/choice/door/classicStyle.png",-->
+      <!--             text: 'Эмаль',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-2",-->
+      <!--             tab: "#tab-2",-->
+      <!--             img: "img/choice/door/ecoEnamel.png",-->
+      <!--             text: 'Шпоновые',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-3",-->
+      <!--             tab: "#tab-3",-->
+      <!--             img: "img/choice/door/veneer.png",-->
+      <!--             text: 'Полипропиленовые',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-4",-->
+      <!--             tab: "#tab-4",-->
+      <!--             img: "img/choice/door/veneer.png",-->
+      <!--             text: 'Экошпованые',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-5",-->
+      <!--             tab: "#tab-5",-->
+      <!--             img: "img/choice/door/wooden.png",-->
+      <!--             text: 'Деревянные',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-6",-->
+      <!--             tab: "#tab-6",-->
+      <!--             img: "img/choice/door/enamel.png",-->
+      <!--             text: 'Современные стиль',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-7",-->
+      <!--             tab: "#tab-7",-->
+      <!--             img: "img/choice/door/enamel.png",-->
+      <!--             text: 'Современные стиль',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-8",-->
+      <!--             tab: "#tab-8",-->
+      <!--             img: "img/choice/door/high-TechStyle.png",-->
+      <!--             text: 'Стиль Хай-Тек',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-9",-->
+      <!--             tab: "#tab-9",-->
+      <!--             img: "img/choice/door/high-TechStyle.png",-->
+      <!--             text: 'Классический стиль',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-10",-->
+      <!--             tab: "#tab-10",-->
+      <!--             img: "img/choice/door/modernStyleWho.png",-->
+      <!--             text: 'Стиль Прованс',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-11",-->
+      <!--             tab: "#tab-11",-->
+      <!--             img: "img/choice/door/modernStyleWho.png",-->
+      <!--             text: 'Стиль Модрн',-->
+      <!--         },-->
+      <!---->
+      <!--         {-->
+      <!--             data: "tab-12",-->
+      <!--             tab: "#tab-12",-->
+      <!--             img: "img/choice/door/withMdf.png",-->
+      <!--             text: 'С МДФ',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-13",-->
+      <!--             tab: "#tab-13",-->
+      <!--             img: "img/choice/door/enamel.png",-->
+      <!--             text: 'Современные стиль',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-14",-->
+      <!--             tab: "#tab-14",-->
+      <!--             img: "img/choice/door/high-TechStyle.png",-->
+      <!--             text: 'Стиль Хай-Тек',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-15",-->
+      <!--             tab: "#tab-15",-->
+      <!--             img: "img/choice/door/high-TechStyle.png",-->
+      <!--             text: 'Классический стиль',-->
+      <!--         },-->
+      <!--         {-->
+      <!--             data: "tab-16",-->
+      <!--             tab: "#tab-16",-->
+      <!--             img: "img/choice/door/modernStyleWho.png",-->
+      <!--             text: 'Стиль Прованс',-->
+      <!--         },-->
+      <!--     ];-->
+      <!---->
+      <!-- each item in choice-->
+      <section class="choice">
+        <div class="container">
+          <div class="choice-wrapper">
+            <div class="choice-title">
+              <h3>Выберите нужную дверь</h3>
+            </div>
+            <div class="choice-accordion">
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/classicStyle.png"></div>
+                <div class="accordion-title" data-tab="tab-1">
+                  <h3>Эмалевые</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-1">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/ecoEnamel.png"></div>
+                <div class="accordion-title" data-tab="tab-2">
+                  <h3>Шпоновые</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-2">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/veneer.png"></div>
+                <div class="accordion-title" data-tab="tab-3">
+                  <h3>Полипропиленовые</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-3">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/veneer.png"></div>
+                <div class="accordion-title" data-tab="tab-4">
+                  <h3>Экошпованые</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-4">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/wooden.png"></div>
+                <div class="accordion-title" data-tab="tab-5">
+                  <h3>Деревянные</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-5">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/enamel.png"></div>
+                <div class="accordion-title" data-tab="tab-6">
+                  <h3>Современные стиль</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-6">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/enamel.png"></div>
+                <div class="accordion-title" data-tab="tab-7">
+                  <h3>Современные стиль</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-7">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/high-TechStyle.png"></div>
+                <div class="accordion-title" data-tab="tab-8">
+                  <h3>Стиль Хай-Тек</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-8">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/high-TechStyle.png"></div>
+                <div class="accordion-title" data-tab="tab-9">
+                  <h3>Классический стиль</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-9">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/modernStyleWho.png"></div>
+                <div class="accordion-title" data-tab="tab-10">
+                  <h3>Стиль Прованс</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-10">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/modernStyleWho.png"></div>
+                <div class="accordion-title" data-tab="tab-11">
+                  <h3>Стиль Модрн</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-11">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/withMdf.png"></div>
+                <div class="accordion-title" data-tab="tab-12">
+                  <h3>С МДФ</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-12">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/enamel.png"></div>
+                <div class="accordion-title" data-tab="tab-13">
+                  <h3>Современные стиль</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-13">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/high-TechStyle.png"></div>
+                <div class="accordion-title" data-tab="tab-14">
+                  <h3>Стиль Хай-Тек</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-14">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/high-TechStyle.png"></div>
+                <div class="accordion-title" data-tab="tab-15">
+                  <h3>Классический стиль</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-15">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/modernStyleWho.png"></div>
+                <div class="accordion-title" data-tab="tab-16">
+                  <h3>Стиль Прованс</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-16">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/modernStyleWho.png"></div>
+                <div class="accordion-title" data-tab="tab-17">
+                  <h3>Эмалевые</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-17">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-imag"><img src="img/choice/door/modernStyleWho.png"></div>
+                <div class="accordion-title" data-tab="tab-18">
+                  <h3>Эмалевые</h3>
+                  <svg class="icon">
+                    <use href="./img/choice/array.svg#array"></use>
+                  </svg>
+                </div>
+                <div class="accordion-content" id="tab-18">
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Двери-купе</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                  <div class="content-wrap"><a href="#">Для ванной и туалета</a></div>
+                  <div class="content-wrap"><a href="#">Скрытые</a></div>
+                  <div class="content-wrap"><a href="#">Эмолированные</a></div>
+                </div>
+              </div>
+            </div><a class="button" href="#">Показать все</a>
+          </div>
+        </div>
+      </section>
+      <section class="popular">
+        <div class="container">
+          <div class="popular-wrap">
+            <div class="popular-header">
+              <h3>Популярные разделы</h3>
+            </div>
+            <div class="popular-block"><a class="block" href="#">
+                <div class="block-imag"><img class="block-img" src="img/choice/door/veneer.png"></div>
+                <p class="block-title">Эмалевые</p></a><a class="block" href="#">
+                <div class="block-imag"><img class="block-img" src="img/choice/door/veneer.png"></div>
+                <p class="block-title">Классический стиль</p></a><a class="block" href="#">
+                <div class="block-imag"><img class="block-img" src="img/choice/door/wooden.png"></div>
+                <p class="block-title">Стиль Прованс</p></a><a class="block" href="#">
+                <div class="block-imag"><img class="block-img" src="img/choice/door/enamel.png"></div>
+                <p class="block-title">Стиль Модрн</p></a><a class="block" href="#">
+                <div class="block-imag"><img class="block-img" src="img/choice/door/high-TechStyle.png"></div>
+                <p class="block-title">С МДФ</p></a><a class="block" href="#">
+                <div class="block-imag"><img class="block-img" src="img/choice/door/high-TechStyle.png"></div>
+                <p class="block-title">Современные стиль</p></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container">
+          <div class="map-wrap">
+            <div class="map-header">
+              <h3>Наши салоны в Казахстане</h3>
+            </div>
+            <div class="popular-block">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#">Астана</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Алматы</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Караганда</a></li>
+                <li class="nav-item"><a class="nav-button" href="#">Показать все</a></li>
+              </ul>
+            </div>
+            <div class="map-item"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3050854.026140703!2d72.05276206069836!3d41.69138732767859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1679643110284!5m2!1sru!2sby" width="100%" height="311.99" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          </div>
+        </div>
+      </section>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js">
+      </script>
+      <section class="products">
+        <div class="container">
+          <div class="products-wrap">
+            <div class="products-header">
+              <h2>Популярные товары</h2>
+            </div>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/split.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Split Распашная</div>
+                    <div class="block-prise">от 84 470 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/stellaTwo.png"></div>
+                  <div class="block-about">
+                    <div class="block-title">Стелла 2</div>
+                    <div class="block-prise">от 104 787 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/linewood.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Лайнвуд 1</div>
+                    <div class="block-prise">от 108 293 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/lester.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Лестер Распашная</div>
+                    <div class="block-prise">от 59 550 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/flexOne.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Флекс 1 Молдинг Золото Распашная</div>
+                    <div class="block-prise">от 84 470 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/cremonaOne.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Кремона 1 Распашная</div>
+                    <div class="block-prise">от 84 470 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/split.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Скрытые</div>
+                    <div class="block-prise">от 84 470 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/split.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Скрытые</div>
+                    <div class="block-prise">от 84 470 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="block-imag"><img src="img/products/split.jpg"></div>
+                  <div class="block-about">
+                    <div class="block-title">Скрытые</div>
+                    <div class="block-prise">от 84 470 тенге</div>
+                  </div>
+                  <div class="block-button">
+                    <svg class="icon">
+                      <use href="./img/products/cart.svg#cart"></use>
+                    </svg>
+                    <button>Заказать</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./libs/jquery.min.js"></script>
+    <script src="./js/scripts/utils.js"></script>
+    <script src="./js/scripts/const.js"></script>
+    <script src="./libs/libs.min.js"></script>
+    <script defer src="./js/scripts/fv.js"></script>
+    <script defer src="./js/scripts/vi.js"></script>
+    <script defer src="./libs/swiper-bundle.min.js"></script>
+    <script src="./js/scripts/mp.js"></script>
+    <!--script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js')-->
+    <script src="./js/scripts/scripts.js"></script>
+  </body>
+</html>
